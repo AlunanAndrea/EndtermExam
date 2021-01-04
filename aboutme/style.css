@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+body{
+    background-image: url(../img/ocean.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+
+}
+.header{
+    position: absolute;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.header ul{
+    list-style-type: none;
+
+}
+
+.header li{
+    float:left;
+    margin-left: 50px;
+
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 50px;
+    color: azure;
+    background-color: rgb(40, 37, 216);
+    border-radius: 10px;
+}
+
+.header a:hover{
+
+    letter-spacing: 5px;
+}
+
+
+.container #boat{
+    position: absolute;
+    right:100px;
+    bottom: 50px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}   
+   
+    @keyframes bounce-1 {
+           0%   { transform: translateY(20px); }
+           50%  { transform: translateY(-20px); }
+           100% { transform: translateY(20px); }
+}
+
+
+
+.learning{
+
+    width: 1300px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+.learning p{
+    color: azure;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Pirata One', cursive;
+    background-color: teal;
+    border-radius: 10px;
+    letter-spacing: 5px;
+
+}
+
+.learning a:hover{
+    letter-spacing: 10px;
+}
