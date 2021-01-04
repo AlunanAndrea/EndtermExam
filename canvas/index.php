@@ -29,7 +29,7 @@
         <ul>
             <li><h1>Exam</h1></li>
             <li><a href="../index.php">Heroku</a></li>
-            <li><a href="">Github</a></li>
+            <li><a href="https://github.com/AlunanAndrea/EndtermExam/tree/main/canvas/7.1">Github</a></li>
         </ul>
     </div>
 
