@@ -24,7 +24,7 @@
         <ul>
             <li><h1>Exam</h1></li>
             <li><a href="Exam/index.php">Heroku</a></li>
-            <li><a href="">Github</a></li>
+            <li><a href="https://github.com/AlunanAndrea/EndtermExam/tree/main/svg/Exam">Github</a></li>
         </ul>
     </div>
 
